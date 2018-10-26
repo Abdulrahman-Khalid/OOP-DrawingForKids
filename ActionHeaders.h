@@ -1,0 +1,31 @@
+#pragma once
+#include "DEFS.h"
+#include "Figures\CFigure.h"
+#include "GUI\input.h"
+#include "GUI\output.h"
+#include "Actions\AddRectAction.h"
+#include "Actions\AddLineAction.h"
+#include "Actions\AddCircleAction.h"
+#include "Actions\AddTriangleAction.h"
+#include "Actions\SelectAction.h"
+#include "Actions\DeleteAction.h"
+#include "Actions\RandomPlayColor.h"
+#include "Actions\RandomPlayType.h"
+#include "Actions\RandomPlayColorAndType.h"
+#include "Actions\ToPlay.h"
+#include "Actions\ChangeFillColorAction.h"
+#include "Actions\SendToBack.h"
+#include "Actions\SendToFront.h"
+#include "Actions\ROTATEACTION.h"
+#include "Actions\ChangeDrwClrAction.h"
+#include "Actions\toDraw.h"
+#include"Actions\COPY.h"
+#include"Actions\CUTACTION.h"
+#include"Actions\PASTEACTION.h"
+#include "Actions\Save.h"
+#include "Actions\Load.h"
+#include "Actions\Exit.h"
+
+#include<Windows.h>
+#include<mmsystem.h>
+#include<mciapi.h>
